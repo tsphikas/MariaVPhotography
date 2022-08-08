@@ -1,0 +1,68 @@
+.home-section {
+  min-height: 100vh;
+  background-image: url("../../img/one.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: Hermanz, Times, serif;
+  z-index: 1;
+}
+
+.home-section:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000000;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.home-section .row {
+  min-height: 100vh;
+}
+
+.home-section .home-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.home-section .home-content h1 {
+  font-size: 55px;
+  //font-weight: 900;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.home-section .home-content h2 {
+  font-size: 45px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.home-section .home-content h3 {
+  font-size: 35px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.home-section .scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  height: 30px;
+  width: 30px;
+  margin-left: -15px;
+  animation: scrollDown 2s ease infinite;
+}
+
+.home-section .scroll-down img {
+  width: 25px;
+  display: block;
+  margin: 2px auto;
+}

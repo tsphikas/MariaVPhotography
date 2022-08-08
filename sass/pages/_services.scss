@@ -1,0 +1,58 @@
+.services-section {
+  padding: 80px 0 0;
+}
+
+.services-section .service-item {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+.services-section .service-item-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-section .service-item-inner img {
+  width: 100%;
+  display: block;
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+}
+
+.services-section .service-item-inner:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+.services-section .service-item-inner .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.services-section .service-item-inner:hover .overlay {
+  background-color: transparent;
+}
+
+.services-section .service-item-inner .overlay h4 {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  transition: all 0.5s ease;
+  text-transform: capitalize;
+}
+
+.services-section .service-item-inner .overlay:hover h4 {
+  transform: translateX(30px);
+  opacity: 0;
+}
