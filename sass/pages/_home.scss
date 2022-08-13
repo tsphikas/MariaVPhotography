@@ -66,3 +66,16 @@
   display: block;
   margin: 2px auto;
 }
+
+@media (max-width: 767px) {
+  .home-section .home-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .home-section.home-content {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+}

@@ -3,10 +3,12 @@
 @import "base/reset";
 @import "base/typography";
 
-@import "components/lineStyle";
 @import "components/buttons";
+@import "components/lineStyle";
+@import "components/preloader";
 
 @import "pages/about";
+@import "pages/contactSection";
 @import "pages/home";
 @import "pages/lightbox";
 @import "pages/nav";

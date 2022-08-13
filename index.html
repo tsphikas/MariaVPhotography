@@ -9,6 +9,11 @@
     <title>MariaVPhotography</title>
   </head>
   <body>
+    <!-- Preloader Start -->
+    <div class="preloader">
+      <div class="loader"></div>
+    </div>
+    <!-- Preloader Finish -->
     <!--     <div class="line-container">
       <svg
         viewBox="0 0 404 2071"
@@ -31,13 +36,14 @@
           <div class="brand-name">
             <a href="index.html">MariaV.</a>
           </div>
+          <div class="nav-toggle"><span></span></div>
           <nav class="nav">
             <ul>
-              <li><a href="#"></a>Home</li>
-              <li><a href="#"></a>About</li>
-              <li><a href="#"></a>Services</li>
-              <li><a href="#"></a>Works</li>
-              <li><a href="#"></a>Contact</li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -46,7 +52,7 @@
     <!-- Nav/Header End -->
 
     <!-- Home Section Start -->
-    <section class="home-section">
+    <section class="home-section" id="home">
       <div class="container">
         <div class="row">
           <div class="home-content">
@@ -57,14 +63,14 @@
         </div>
       </div>
       <!-- Scroll Down -->
-      <a href="#" class="scroll-down">
+      <a href="#about" class="scroll-down">
         <img src="./img/icons/arrow-down.svg" alt="scroll down" />
       </a>
     </section>
     <!-- Home Section End -->
 
     <!-- About Section Start -->
-    <div class="about-section">
+    <div class="about-section" id="about">
       <div class="container">
         <div class="row">
           <div class="about-img">
@@ -109,7 +115,7 @@
     <!-- About Section End -->
 
     <!-- Services Section Start -->
-    <div class="services-section">
+    <div class="services-section" id="services">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -188,7 +194,7 @@
     <!-- Services Section End -->
 
     <!-- Work Section Start -->
-    <div class="work-section">
+    <div class="work-section" id="works">
       <div class="container">
         <div class="row">
           <div class="section-title">
@@ -290,6 +296,102 @@
     </div>
     <!-- Work Section End -->
 
+    <!-- Contact Section Start -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-img">
+            <div class="img-box">
+              <div class="section-title">
+                <h1>Contact Me</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form class="form">
+              <div class="row">
+                <div class="left input-group">
+                  <label>Name</label>
+                  <input
+                    type="text"
+                    placeholder="Your Name Here"
+                    class="input-control"
+                  />
+                </div>
+                <div class="right input-group">
+                  <label>Email or Phone</label>
+                  <input
+                    type="text"
+                    placeholder="Your Email or Phone Here"
+                    class="input-control"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-group">
+                  <label>Message</label>
+                  <textarea
+                    class="input-control"
+                    placeholder="Your Message Here"
+                    name=""
+                    id=""
+                    cols=""
+                    rows=""
+                  ></textarea>
+                </div>
+              </div>
+              <div class="form-btn">
+                <button type="button" class="btn btn-01">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-info">
+            <div class="row">
+              <!-- Info Item Start -->
+              <div class="info-item">
+                <h5>Address</h5>
+                <p>Sutton Coldfield, West Midlands</p>
+              </div>
+              <!-- Info Item End -->
+              <!-- Info Item Start -->
+              <div class="info-item">
+                <h5>Phone</h5>
+                <p>0790 835 0697</p>
+              </div>
+              <!-- Info Item End -->
+              <!-- Info Item Start -->
+              <div class="info-item">
+                <h5>Email</h5>
+                <p>theodoros.sphikas@gmail.com</p>
+              </div>
+              <!-- Info Item End -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="social-links">
+            <a href="#" title="facebook">
+              <img src="img/icons/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#" title="twitter">
+              <img src="img/icons/twitter.svg" alt="twitter" />
+            </a>
+            <a href="#" title="instagram">
+              <img src="img/icons/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Copyright Text -->
+    <p class="copyright">&copy; 2022 Theodoros Sphikas</p>
+
     <!-- Lightbox Start -->
     <div class="lightbox">
       <div class="img-box">
@@ -310,6 +412,7 @@
       </div>
     </div>
     <!-- Lightbox End -->
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/line.js"></script>
     <script src="./js/lightbox.js"></script>

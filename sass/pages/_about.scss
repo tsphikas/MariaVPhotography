@@ -59,3 +59,15 @@
 .about-section .about-content .btn {
   margin-top: 30px;
 }
+
+@media (max-width: 767px) {
+  .about-section .about-img {
+    margin-bottom: 30px;
+  }
+
+  .about-section .about-content,
+  .about-section .about-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

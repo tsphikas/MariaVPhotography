@@ -21,3 +21,12 @@
     transform: translateY(-15px);
   }
 }
+
+@keyframes ani01 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
